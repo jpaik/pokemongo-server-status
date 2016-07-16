@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--
+Created by Poke Tips Admin
+http://poke.tips
+-->
+<html>
+<head>
+  <title>Pokemon Go Server Status</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Pokemon Go servers are: <span id="server" class="load"></span></h1>
+  <p id="up" class="serverpara">Pokemon Go servers seem to be up. If you can't access Pokemon Go, then try restarting the app. <br><button class="refresh">Refresh Status</button></p>
+  <p id="slow" class="serverpara">Pokemon Go servers seem to be up, but can be very slow. However, it also means that servers will be down temporarily.<br><button class="refresh">Refresh Status</button></p>
+  <p id="down" class="serverpara">Pokemon Go servers seem to be down. We'll have to wait until Niantic fixes their servers.<br><button class="refresh">Refresh Status</button></p>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+  			  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  			  crossorigin="anonymous"></script>
+  <script src="ping.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
