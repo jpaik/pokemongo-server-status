@@ -12,7 +12,7 @@ jQuery(".serverpara").hide(); //Hide the paragraphs
        i++;
        serverStatus(); //recur
      }).catch(function(err){ //This means server is down or something
-       avgTime.push(3000); //Push 3000ms load speed if not reachable.
+       avgTime.push(3500); //Push 3500ms load speed if not reachable.
        i++;
        serverStatus(); //recur
      });
